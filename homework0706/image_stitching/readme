@@ -1,0 +1,8 @@
+image_stitching.py is a python script to realize panorama function.
+
+The script proceeds in the following order:
+1. Read 2 images to stitch
+2. Find SIFT feature points
+3. Using brute force mathing method--KNN to get k nearest feature points according to their respective descriptors
+4. Get homography to convert image1 to image2 after applying RANSAC(cv2.findHomography, cv2.RANSAC)
+5. Stitch the two images
