@@ -1,0 +1,5 @@
+linear_regression_recoding.py is a repeted work of the code displayed in class by Mr.Zhao.
+
+linear_regression_vectorization.py is the reorganized code for linear regression using vectorization to reduce the use of "for loop"
+
+logistic_regression.py is a script to realize logistic regression with linear decision boundary. The corresponding test data is in test.txt.
